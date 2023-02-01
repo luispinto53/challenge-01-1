@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Encriptador</title>
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <img class="logo" src="imagenes/logo.png" alt="logo de alura" />
+    </header>
+    <main>
+      <section class="seccion-1">
+        <textarea
+          class="tex-area"
+          cols="30"
+          rows="10"
+          placeholder="Ingrese el texto aqui"
+        ></textarea>
+        <div class="solo">
+          <img class="info" src="imagenes/vector.svg" alt="exclamación" />
+          <h6 class="informacion">Solo letras minúsculas y sin ascentos</h6>
+        </div>
+        <div class="botones">
+          <button class="btn-encriptar">Encriptar</button>
+          <button class="btn-desencriptar">Desencriptar</button>
+        </div>
+      </section>
+      <section class="seccion-2">
+        <textarea
+          class="mensaje"
+          cols="20"
+          rows="10"
+          placeholder="Ningún mensaje fue encontrado"
+        ></textarea>
+        <h6 class="texto">
+          Ingresa el texto que desees encriptar o desencriptar.
+        </h6>
+
+        <div>
+          <button class="btn-copiar">Copiar</button>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <p class="pie">
+        Realizado por | Luis Héctor Pinto | luispinto53@hotmail.com
+      </p>
+    </footer>
+    <script src="archivo.js"></script>
+  </body>
+</html>
